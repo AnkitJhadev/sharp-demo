@@ -8,5 +8,12 @@
 // const change = document.getElementsByClassName("title");
 // change.textContent ;= "Add List Of Items";
 // header.style.color="red"
-var list = document.getElementsByClassName('list-group');
-list.getElementsByClassName('list-group').innerText = 'hello';
+// var list = document.getElementsByClassName('list-group');
+// list.getElementsByClassName('list-group').innerText = 'hello';
+// Select the second element with a specific CSS selector
+const secondElement = document.querySelector('li:nth-child(2)');
+secondElement.style.color = 'red';
+const thirdElement = document.querySelector("li:nth-child(3)");
+thirdElement.style.display = 'none' ; 
+
+
